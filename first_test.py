@@ -28,5 +28,11 @@ print(calendar.calendar(2019))
 print(calendar.firstweekday())
 
 # input()関数を利用
-input_text = input("好きな文字を入力：")
-print("入力された文字：", input_text)
+# 処理が一時停止するため、コメントアウト
+# input_text = input("好きな文字を入力：")
+# print("入力された文字：", input_text)
+
+# strメソッドを利用
+base_text = "hogehoge island"
+upper_text = base_text.upper()
+print(f"`{base_text}`を、大文字にすると`{upper_text}`となる")
