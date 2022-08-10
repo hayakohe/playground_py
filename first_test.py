@@ -7,9 +7,7 @@ def print_arg(something):
 print_arg(1000)
 print_arg("hoge")
 
-def abs(num):
-    return num
-
+# 絶対値計算
 arg_count = 100 * -1
 return_value = abs(arg_count)
 print(return_value)
