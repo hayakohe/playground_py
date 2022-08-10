@@ -1,4 +1,5 @@
-import math
+import math 
+import calendar
 
 # 動的型付け言語のため、型指定が不要
 def print_arg(something):
@@ -19,3 +20,9 @@ print(return_value)
 # mathを利用
 square_root = math.sqrt(2.0)
 print(square_root)
+
+# カレンダー機能
+calendar.prmonth(2022, 8)
+calendar.setfirstweekday(calendar.SUNDAY)
+print(calendar.calendar(2019))
+print(calendar.firstweekday())
