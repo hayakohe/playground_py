@@ -26,3 +26,7 @@ calendar.prmonth(2022, 8)
 calendar.setfirstweekday(calendar.SUNDAY)
 print(calendar.calendar(2019))
 print(calendar.firstweekday())
+
+# input()関数を利用
+input_text = input("好きな文字を入力：")
+print("入力された文字：", input_text)
